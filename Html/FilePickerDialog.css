@@ -1,0 +1,50 @@
+body {
+  background-color: #222;
+  color: #fff;
+  padding-top: 3.2em;
+}
+table {
+  width: 100%;
+}
+/* Title (Folder Path): */
+#heading {
+  padding: 1em;
+  background-color: #222;
+  position: fixed;
+  top: 0px;
+  width: 82%;
+  border-bottom: thin solid #0099cc;
+  color: #0099cc;
+  font-size: 1.0em;
+  white-space:nowrap;
+}
+/* "Hidden" Directories: */
+.hidden {
+  color: #888;
+}
+/* File Type Icons: */
+.icon {
+  height: 32px;
+  padding-left: 34px;
+  background-repeat: no-repeat;
+}
+.file   { background-image: url("../Img/new_page.png"); }
+.folder { background-image: url("../Img/folder.png"); }
+.css    { background-image: url("../Img/css_file.png"); }
+.csv    { background-image: url("../Img/csv_file.png"); }
+.html   { background-image: url("../Img/html_file.png"); }
+.img    { background-image: url("../Img/artwork.png"); }
+.js     { background-image: url("../Img/js_file.png"); }
+.json   { background-image: url("../Img/json_file.png"); }
+.php    { background-image: url("../Img/php_file.png"); }
+.ppt    { background-image: url("../Img/ppt_file.png"); }
+.svg    { background-image: url("../Img/svg_file.png"); }
+.txt    { background-image: url("../Img/txt_file.png"); }
+.xml    { background-image: url("../Img/xml_file.png"); }
+.up     { background-image: url("../Img/green_arrow_up.png"); }
+/* Selected Files: */
+.selected {
+  background-color: #33b5e5;
+  color: #222;
+  background-image: url("../Img/accept.png");
+}
